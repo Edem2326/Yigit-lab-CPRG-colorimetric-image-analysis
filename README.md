@@ -1,8 +1,8 @@
-# Yigit_Lab-CPRG_imageanalysis
+# Yigit_lab-CPRG_Analysis
 
 CPRG Colorimetric Image Analysis (MATLAB)
 
-This repository provides MATLAB scripts for quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
+This repository provides the MATLAB code for quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
 
 #### *(MATLAB version R2021b Update 6 (9.11.0.2207237), 64 bits, February 23, 2023)*
 
@@ -17,22 +17,24 @@ The workflow converts RGB images into CIE L*a*b* color space and performs block-
 #### STEP by STEP
 
 1. Create a root directory and name it.
-2. 
-3. Download the MATLAB code ‘CPRG_CIElab_analysis.mfile’ and save it  in the directory.
-4. 
-5. Download and save the example image file. [CPRG image 2 x 2].
-6. 
-7. In MATLAB,  code is annotated to show experimental procedures. You an run the code to see you result.
-1. Import image “CPRG_example.tif” into MATLAB.
-2. Automated circular assay regions detection with the built-in circle detection function. 
-3. Subdivide image into grids blocks to enable spatial quantification (10 x 10 0r 15 x 15 pixels, can be adjusted depending on the image resolution).
-4. Filtering of edge blocks using 95 % overlap threshold (can be adjusted).
-5. Convert RGB to CIE L*a*b* color space to operate luminance from chromatic information.
-6. Extract go L*a*b*  channels and compute the block-wise mean for a*.
-7. Quantitate measurement will be exported as .csv files to the directory.
-8. Heat map will also be generated.
+   
+2. Download the MATLAB code [CPRG_CIElab_analysis.m](/CPRG_CIElab_analysis.m) and save it  in the directory.
+ 
+3. Download and save the example image file. [CPRG_eaxmple_2x2.tif](/CPRG_eaxmple_2x2.tif).
+ 
+4. In MATLAB, this code is annotated to show all analysis procedures. You can run the code to visualize result for this example analysis experiment. This code can be adjusted depending on the study.
+   
+  a. Import image [CPRG_eaxmple_2x2.tif](/CPRG_eaxmple_2x2.tif) into MATLAB.
+  b. Automated circular assay regions detection with the built-in circle detection function. 
+  c. Subdivide image into grids blocks to enable spatial quantification (10 x 10 0r 15 x 15 pixels, can be adjusted depending on the image resolution).
+  d. Filtering of edge blocks using 95 % overlap threshold (can be adjusted).
+  e. Convert RGB to CIE L* a* b* color space to operate luminance from chromatic information.
+  f. Extract go L* a* b* channels and compute the block-wise mean for a*.
+  g. Quantitative output for this anlaysis will be exported as .csv files to the directory.
+  h. Heat map will also be generated.
 
-Key notes
+--------------------------------------------------------
+#### Key notes
 
 1. Results depend on consistent imaging acquisition settings.
 
@@ -42,6 +44,9 @@ Key notes
 
 4. For this code adjust the row and column dimensions to run code. This example is a 2 x 2 grid.
 
-Contributions
-Mahla Lashkari, Natalie Connell and Emmett Hanson performed all the imaging expermients.
-Emmanuel Edem Adade wrote the code for this quantitive image analysis.
+---------------------------------------------------------
+#### Contributions
+
+[Emmanuel Edem Adade](https://github.com/Edem2326) - wrote the code for this quantitative image analysis.
+Mahla Lashkari, Natalie Connell and Emmett Hanson performed all the imaging experiments.
+Mehmet Yigit - Conceived the study.
