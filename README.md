@@ -24,7 +24,7 @@ The workflow converts RGB images into CIE L* a* b* color space and performs bloc
  
 4. In MATLAB, this code is annotated to show all analysis procedures. You can run the code to visualize result for this example analysis experiment. This code can be adjusted depending on the study.
    
-  - Import image [CPRG_eaxmple_2x2.tif](/CPRG_eaxmple_2x2.tif) into MATLAB.
+  - Import image [CPRG_eaxmple_2x2.tif](/[CPRG_eaxmple_2x2.tif](https://raw.githubusercontent.com/Edem2326/Yigit_Lab-CPRG_imageanalysis/refs/heads/main/CPRG_example_2x2.tif?token=GHSAT0AAAAAADZJSN6RFDDY5ROEOO2CXPYE2O4MORQ) into MATLAB.
   
   - Automated circular assay regions detection with the built-in circle detection function. 
   
