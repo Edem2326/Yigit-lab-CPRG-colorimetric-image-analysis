@@ -1,4 +1,4 @@
-# Yigit_lab-CPRG_Analysis
+# Yigit_lab-CPRG_Colorimetric_Image_Analysis
 
 CPRG Colorimetric Image Analysis (MATLAB)
 
