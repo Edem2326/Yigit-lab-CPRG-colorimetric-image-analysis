@@ -55,5 +55,7 @@ The workflow converts RGB images into CIE L* a* b* color space and performs bloc
 #### Contributions
 
 [Emmanuel Edem Adade](https://github.com/Edem2326) - wrote the code for this quantitative image analysis.
+
 Mahla Lashkari, Natalie Connell and Emmett Hanson performed all the imaging experiments.
+
 Mehmet Yigit - Conceived the study.
