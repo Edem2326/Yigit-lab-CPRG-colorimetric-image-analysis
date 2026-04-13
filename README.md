@@ -49,13 +49,13 @@ This workflow converts RGB images into CIE L* a* b* color space and performs blo
 
 3. Parameter tuning (e.g., circle detection, thresholds) may be required for different datasets.
 
-4. For this code adjust the row and column dimensions to run code. This example is a 2 x 2 grid.
+4. You can adjust the row and column dimensions to run code. This example is a 2 x 2 grid.
 
 ---------------------------------------------------------
 #### Contributions
 
-[Emmanuel Edem Adade](https://github.com/Edem2326) - wrote the code for this quantitative image analysis.
+[Emmanuel Edem Adade](https://github.com/Edem2326) wrote the code for this quantitative image analysis.
 
 Mahla Lashkari, Natalie Connell and Emmett Hanson performed all the imaging experiments.
 
-Mehmet Yigit - Conceived the study.
+Mehmet Yigit conceived the study.
