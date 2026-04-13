@@ -11,7 +11,7 @@ Lashkari M, Connell N, Hanson E, Adade EE and Yigit MY, 2026.  Using glucometer 
 
 Overview
 
-The workflow converts RGB images into CIE L*a*b* color space and performs block-based analysis of the a* channel to quantify chromogenic signal associated with CPRG substrate conversion. Spatial variation in signal is captured using grid-based sampling and visualized as heat maps across assay regions.
+The workflow converts RGB images into CIE L* a* b* color space and performs block-based analysis of the a* channel to quantify chromogenic signal associated with CPRG substrate conversion. Spatial variation in signal is captured using grid-based sampling and visualized as heat maps across assay regions.
 
 -------------------------------------------------------
 #### STEP by STEP
