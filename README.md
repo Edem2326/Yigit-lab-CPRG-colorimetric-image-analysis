@@ -2,7 +2,7 @@
 
 CPRG Colorimetric Image Analysis (MATLAB)
 
-This repository provides the MATLAB code for quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
+This repository contains the MATLAB code for the quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
 
 #### *(MATLAB version R2021b Update 6 (9.11.0.2207237), 64 bits, February 23, 2023)*
 
