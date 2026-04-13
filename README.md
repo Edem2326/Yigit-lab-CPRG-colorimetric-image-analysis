@@ -20,7 +20,7 @@ This workflow converts RGB images into CIE L* a* b* color space and performs blo
    
 2. Download the MATLAB code [CPRG_CIElab_analysis.m](/CPRG_CIElab_analysis.m) and save it  in the directory.
  
-3. Download and save the example image file ![CPRG_example_2x2.tif](CPRG_example_2x2.tif).
+3. Download and save the example image file ![CPRG_example_2x2.tif](./CPRG_example_2x2.tif).
  
 4. In MATLAB, this code is annotated to show all analysis procedures. You can run the code to visualize result for this example analysis experiment. This code can be adjusted depending on the study.
    
