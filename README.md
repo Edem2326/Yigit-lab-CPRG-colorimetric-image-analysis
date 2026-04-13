@@ -25,12 +25,19 @@ The workflow converts RGB images into CIE L*a*b* color space and performs block-
 4. In MATLAB, this code is annotated to show all analysis procedures. You can run the code to visualize result for this example analysis experiment. This code can be adjusted depending on the study.
    
   a. Import image [CPRG_eaxmple_2x2.tif](/CPRG_eaxmple_2x2.tif) into MATLAB.
+  
   b. Automated circular assay regions detection with the built-in circle detection function. 
+  
   c. Subdivide image into grids blocks to enable spatial quantification (10 x 10 0r 15 x 15 pixels, can be adjusted depending on the image resolution).
+  
   d. Filtering of edge blocks using 95 % overlap threshold (can be adjusted).
+  
   e. Convert RGB to CIE L* a* b* color space to operate luminance from chromatic information.
+  
   f. Extract go L* a* b* channels and compute the block-wise mean for a*.
+  
   g. Quantitative output for this anlaysis will be exported as .csv files to the directory.
+  
   h. Heat map will also be generated.
 
 --------------------------------------------------------
