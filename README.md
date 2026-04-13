@@ -56,6 +56,6 @@ This workflow converts RGB images into CIE L* a* b* color space and performs blo
 
 [Emmanuel Edem Adade](https://github.com/Edem2326) wrote the code for this quantitative image analysis.
 
-Mahla Lashkari, Natalie Connell and Emmett Hanson performed all the imaging experiments.
+Mahla Lashkari, Natalie Connell and [Emmett Hanson](https://github.com/emmettjhanson) performed all the imaging experiments.
 
 Mehmet Yigit conceived the study.
