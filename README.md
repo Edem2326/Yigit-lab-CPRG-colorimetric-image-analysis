@@ -2,7 +2,7 @@
 
 CPRG Colorimetric Image Analysis (MATLAB)
 
-This repository contains the MATLAB code for the quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
+This repository contains the MATLAB code and an example image for the quantitative and spatial analysis of CPRG colorimetric assays from digital microscopy images (.RGB).
 
 #### *(MATLAB version R2021b Update 6 (9.11.0.2207237), 64 bits, February 23, 2023)*
 
@@ -11,7 +11,7 @@ Lashkari M, Connell N, Hanson E, Adade EE and Yigit MY, 2026.  Using glucometer 
 
 Overview
 
-The workflow converts RGB images into CIE L* a* b* color space and performs block-based analysis of the a* channel to quantify chromogenic signal associated with CPRG substrate conversion. Spatial variation in signal is captured using grid-based sampling and visualized as heat maps across assay regions.
+This workflow converts RGB images into CIE L* a* b* color space and performs block-based analysis of the a* channel to quantify chromogenic signal associated with CPRG substrate conversion. Spatial variation in signal is captured using grid-based sampling and visualized as heat maps across assay regions.
 
 -------------------------------------------------------
 #### STEP by STEP
