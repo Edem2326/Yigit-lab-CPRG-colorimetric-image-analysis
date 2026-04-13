@@ -14,7 +14,7 @@ Overview
 This workflow converts RGB images into CIE L* a* b* color space and performs block-based analysis of the a* channel to quantify chromogenic signal associated with CPRG substrate conversion. Spatial variation in signal is captured using grid-based sampling and visualized as heat maps across assay regions.
 
 -------------------------------------------------------
-#### STEP by STEP
+#### STEP by STEP 
 
 1. Create a root directory and name it.
    
